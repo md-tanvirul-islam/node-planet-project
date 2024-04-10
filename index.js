@@ -25,6 +25,9 @@ fs.createReadStream('planet_data.csv') // readable stream
     }).on('end', () => {
         console.log('Data process finish');
         console.log(`${habitablePlanets.length} habitable planet found!`);
+        console.log(habitablePlanets.map((p) => {
+            return p['kepler_name'];
+        }));
     });
 
 // readstream process data by chucking the full data using Buffer. 
