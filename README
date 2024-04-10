@@ -1,0 +1,10 @@
+## Stream in node:
+Stream is a way to transfer data from one point to another point.
+
+Stream types:
+    1. Readable Streams (E.g.: Reading a file)
+    2. Writeable Streams (E.g.: Writing a file)
+    3. Duplex Streams (E.g.: Sockets)
+    4. Transform Streams (E.g.: File compression)
+
+Stream Pipe: Readable Stream feeds the Writable Stream.
